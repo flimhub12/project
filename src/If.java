@@ -6,6 +6,7 @@ public class If {
 
         Scanner N = new Scanner(System.in);
           int number = N.nextInt();
+         System.out.println("N");
         if (90<=n){
             System.out.println("A");
         }
