@@ -16,6 +16,7 @@ public class LinearSearch {
             if (array[i] == value) {
                 isValueFound = true;
                 index = i;
+                  System.out.println("  Index " + index);
 
             }
 
