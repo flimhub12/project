@@ -5,7 +5,7 @@ public class LinearSearch {
 
         int value;
 
-        int[] array = {10, 5, 21, 16, 11};
+        int[] array = {10, 5, 21, 16, 11, 15,16};
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter the searched value");
@@ -16,6 +16,7 @@ public class LinearSearch {
             if (array[i] == value) {
                 isValueFound = true;
                 index = i;
+                  System.out.println("  Index " + index);
 
             }
 
